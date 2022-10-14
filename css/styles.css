@@ -579,8 +579,6 @@ body {
 }
 
 .portfolio-item {
-    /* margin-right: 30px;
-    margin-bottom: 30px; */
     width: calc((100% - 60px)/3);
     border: 1px solid #EEEEEE;
 }
