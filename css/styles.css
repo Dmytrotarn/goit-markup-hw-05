@@ -154,7 +154,6 @@ body {
 .contact-link-header:hover,
 .contact-link-header:focus {
   color: var(--accent-color);
-  fill: var(--accent-color);
 }
 
 .current {
