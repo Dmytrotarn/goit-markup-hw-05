@@ -32,7 +32,7 @@ img {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
   color: var(--main-color);
@@ -78,14 +78,14 @@ body {
 /* Logo */
 
 .logo-header {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 26px;
   line-height: 1.19;
   color: var(--main-color);
 }
 
 .logo-accent {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 26px;
   line-height: 1.19;
   color: var(--accent-color);
@@ -168,7 +168,7 @@ body {
 }
 
 .current:after {
-  content: "";
+  content: '';
   position: absolute;
   display: block;
   left: 0;
@@ -221,8 +221,7 @@ body {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   opacity: 1;
-  transition: opacity 250ms var(--main-animation),
-    visibility 250ms var(--main-animation);
+  transition: opacity 250ms var(--main-animation), visibility 250ms var(--main-animation);
 }
 
 .backdrop.is-hidden {
@@ -269,12 +268,8 @@ body {
   padding-bottom: 200px;
   text-align: center;
   background-color: #2f303a;
-  background-image: linear-gradient(
-      to right,
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
-    url("../images/hero-background.jpg");
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url('../images/hero-background.jpg');
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -412,8 +407,7 @@ body {
   width: 44px;
   height: 44px;
   color: #afb1b8;
-  transition: color 250ms var(--main-animation),
-    background-color 250ms var(--main-animation);
+  transition: color 250ms var(--main-animation), background-color 250ms var(--main-animation);
 }
 
 .social:hover,
@@ -490,10 +484,7 @@ body {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   color: #afb1b8;
-  transition: color 250ms var(--main-animation),
-    background-color 250ms var(--main-animation);
-  transition: color 250ms var(--main-animation),
-    background-color 250ms var(--main-animation);
+  transition: color 250ms var(--main-animation), border 250ms var(--main-animation);
 }
 
 .clients-logo {
@@ -528,8 +519,7 @@ body {
   border-radius: 4px;
   color: var(--main-color);
   background-color: var(--secondary-bg-color);
-  transition: color 250ms var(--main-animation),
-    background-color 250ms var(--main-animation),
+  transition: color 250ms var(--main-animation), background-color 250ms var(--main-animation),
     box-shadow 250ms var(--main-animation);
 }
 
